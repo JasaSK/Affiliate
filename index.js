@@ -12,7 +12,7 @@ function displayProducts(productsToShow) {
         <i class="fas fa-search"></i>
         <h3>Produk tidak ditemukan</h3>
         <p>Tidak ada produk yang sesuai dengan pencarian Anda</p>
-        <p>Coba gunakan <strong>kode produk</strong> (contoh: YYS-001) atau <strong>nama produk</strong> yang berbeda</p>
+        <p>Coba gunakan <strong>kode produk</strong> atau <strong>nama produk</strong></p>
       </div>
     `;
     return;
@@ -25,31 +25,44 @@ function displayProducts(productsToShow) {
 
     const productCard = document.createElement("div");
     productCard.className = "product-card";
+
     productCard.innerHTML = `
       <div class="product-badge">${product.category}</div>
+
       <div class="product-image">
-        ${getProductImageHTML(product)}
+        <img 
+          src="${product.image}" 
+          alt="${product.name}"
+          loading="lazy"
+          onerror="this.src='https://via.placeholder.com/300x200/00a046/ffffff?text=YayayaShop';"
+        >
         <div class="product-code">${product.code}</div>
       </div>
+
       <div class="product-info">
         <h3 class="product-title">${product.name}</h3>
+
         <div class="product-price">
           Rp ${product.price.toLocaleString("id-ID")}
-          <span class="product-original-price">Rp ${product.originalPrice.toLocaleString(
-            "id-ID"
-          )}</span>
+          <span class="product-original-price">
+            Rp ${product.originalPrice.toLocaleString("id-ID")}
+          </span>
+          <span class="discount-badge">${discount}%</span>
         </div>
+
         <div class="product-rating">
           ${generateStarRating(product.rating)}
           <span>${product.rating} (${product.reviewCount})</span>
         </div>
-        <div class="product-sold">Terjual: ${product.sold.toLocaleString(
-          "id-ID"
-        )}</div>
-        <div class="product-location">
-          <i class="fas fa-map-marker-alt"></i>
-          ${product.location}
+
+        <div class="product-sold">
+          Terjual: ${product.sold.toLocaleString("id-ID")}
         </div>
+
+        <div class="product-location">
+          <i class="fas fa-map-marker-alt"></i> ${product.location}
+        </div>
+
         <a href="${product.shopeeLink}" target="_blank" class="buy-button">
           <i class="fas fa-shopping-cart"></i> Beli di Shopee
         </a>
@@ -57,7 +70,6 @@ function displayProducts(productsToShow) {
     `;
 
     productCard.addEventListener("click", (e) => {
-      // Cegah klik pada tombol beli agar tidak membuka detail produk
       if (!e.target.closest(".buy-button")) {
         showProductDetail(product);
       }
@@ -108,57 +120,50 @@ function generateStarRating(rating) {
 // Fungsi untuk menampilkan detail produk
 function showProductDetail(product) {
   const productDetail = document.getElementById("productDetail");
+
   const discount = Math.round(
     ((product.originalPrice - product.price) / product.originalPrice) * 100
   );
 
   productDetail.innerHTML = `
     <div class="detail-image-container">
+      <img 
+        src="${product.image}" 
+        alt="${product.name}" 
+        class="detail-image"
+        onerror="this.src='https://via.placeholder.com/500x400/00a046/ffffff?text=YayayaShop';"
+      >
       <div class="detail-code">${product.code}</div>
-      ${getDetailImageHTML(product)}
     </div>
+
     <div class="detail-info">
       <h1 class="detail-title">${product.name}</h1>
+
       <div class="detail-rating">
         ${generateStarRating(product.rating)}
-        <span>${product.rating} | ${
-    product.reviewCount
-  } ulasan | ${product.sold.toLocaleString("id-ID")} terjual</span>
+        <span>
+          ${product.rating} | ${product.reviewCount} ulasan | 
+          ${product.sold.toLocaleString("id-ID")} terjual
+        </span>
       </div>
+
       <div class="detail-price">
         Rp ${product.price.toLocaleString("id-ID")}
-        <span class="detail-original-price">Rp ${product.originalPrice.toLocaleString(
-          "id-ID"
-        )}</span>
-        <span style="background-color: #f53d2d; color: white; padding: 2px 5px; border-radius: 3px; font-size: 0.9rem; margin-left: 10px;">${discount}%</span>
+        <span class="detail-original-price">
+          Rp ${product.originalPrice.toLocaleString("id-ID")}
+        </span>
+        <span class="discount-badge">${discount}%</span>
       </div>
+
       <div class="detail-meta">
-        <div class="detail-meta-item">
-          <i class="fas fa-tag"></i>
-          <span>Kategori: ${product.category}</span>
-        </div>
-        <div class="detail-meta-item">
-          <i class="fas fa-barcode"></i>
-          <span>Kode: ${product.code}</span>
-        </div>
-        <div class="detail-meta-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <span>Dikirim dari ${product.location}</span>
-        </div>
-        <div class="detail-meta-item">
-          <i class="fas fa-shipping-fast"></i>
-          <span>Gratis ongkir</span>
-        </div>
-        <div class="detail-meta-item">
-          <i class="fas fa-undo-alt"></i>
-          <span>14 hari pengembalian</span>
-        </div>
-        <div class="detail-meta-item">
-          <i class="fas fa-shield-alt"></i>
-          <span>Garansi 1 tahun</span>
-        </div>
+        <div><i class="fas fa-tag"></i> ${product.category}</div>
+        <div><i class="fas fa-barcode"></i> ${product.code}</div>
+        <div><i class="fas fa-map-marker-alt"></i> ${product.location}</div>
+        <div><i class="fas fa-shipping-fast"></i> Gratis Ongkir</div>
       </div>
+
       <p class="detail-description">${product.description}</p>
+
       <a href="${product.shopeeLink}" target="_blank" class="detail-buy-button">
         <i class="fas fa-shopping-cart"></i> Beli Sekarang di Shopee
       </a>
