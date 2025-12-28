@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YayayaShop - Belanja Online Murah & Aman</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="#" class="logo">
+            <i class="fas fa-leaf"></i>
+            <span class="logo-text">YayayaShop</span>
+          </a>
+
+          <div class="search-container">
+            <div class="search-box">
+              <input
+                type="text"
+                id="searchInput"
+                placeholder="Cari dengan kode produk atau nama produk..."
+              />
+              <button id="searchButton">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+      <h1 class="page-title">Katalog Produk YayayaShop</h1>
+
+      <div class="search-info">
+        <p>
+          Cari dengan: <strong>kode produk</strong> (contoh: YYS-001) atau
+          <strong>nama produk</strong>
+        </p>
+        <div class="product-count" id="productCount">12 Produk</div>
+      </div>
+
+      <div id="productsContainer" class="products-container">
+        <!-- Produk akan diisi oleh JavaScript -->
+      </div>
+    </main>
+
+    <!-- Product Detail Modal -->
+    <div id="productModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="productDetail" class="product-detail">
+          <!-- Detail produk akan diisi oleh JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="logo">
+            <i class="fas fa-leaf"></i>
+            <span class="logo-text">YayayaShop</span>
+          </div>
+          <p class="copyright">© 2023 YayayaShop. Hak Cipta Dilindungi.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="dummy.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
