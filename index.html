@@ -2,7 +2,10 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"
+    />
     <title>YayayaShop - Belanja Online Murah & Aman</title>
     <link
       rel="stylesheet"
@@ -11,6 +14,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="loadingSpinner" class="loading-spinner" style="display: none">
+      <i class="fas fa-spinner fa-spin"></i>
+    </div>
     <!-- Header -->
     <header>
       <div class="container">
@@ -25,9 +31,11 @@
               <input
                 type="text"
                 id="searchInput"
-                placeholder="Cari dengan kode produk atau nama produk..."
+                placeholder="Cari produk atau kode..."
+                autocomplete="off"
+                aria-label="Cari produk"
               />
-              <button id="searchButton">
+              <button id="searchButton" aria-label="Cari">
                 <i class="fas fa-search"></i>
               </button>
             </div>
