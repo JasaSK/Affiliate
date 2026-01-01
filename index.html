@@ -6,17 +6,25 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"
     />
-    <title>YayayaShop - Belanja Online Murah & Aman</title>
+    <title>YayayaShop – Rekomendasi Produk Shopee Pilihan</title>
+
+    <meta
+      name="description"
+      content="YayayaShop berisi rekomendasi produk Shopee dengan rating tinggi, harga terjangkau, dan review terpercaya. Aman & langsung ke Shopee."
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div id="loadingSpinner" class="loading-spinner" style="display: none">
       <i class="fas fa-spinner fa-spin"></i>
     </div>
+
     <!-- Header -->
     <header>
       <div class="container">
@@ -31,7 +39,7 @@
               <input
                 type="text"
                 id="searchInput"
-                placeholder="Cari produk atau kode..."
+                placeholder="Cari nama atau kode produk…"
                 autocomplete="off"
                 aria-label="Cari produk"
               />
@@ -46,28 +54,54 @@
 
     <!-- Main Content -->
     <main class="container">
-      <h1 class="page-title">Katalog Produk YayayaShop</h1>
 
+      <!-- SECTION PEMBUKA (COPYWRITING UTAMA) -->
+      <section class="intro-section">
+        <h1 class="page-title">
+          Produk Pilihan Shopee yang Lagi Banyak Dicari 🔥
+        </h1>
+
+        <p class="intro-text">
+          Bingung milih produk di Shopee?  
+          Di sini kami kumpulkan <strong>produk dengan rating tinggi, penjualan bagus,
+          dan harga masuk akal</strong> supaya kamu nggak salah beli.
+        </p>
+
+        <ul class="trust-list">
+          <li>✔ Rating & review asli Shopee</li>
+          <li>✔ Langsung ke toko resmi</li>
+          <li>✔ Tidak ada harga tambahan</li>
+        </ul>
+      </section>
+
+      <!-- INFO SEARCH -->
       <div class="search-info">
         <p>
-          Cari dengan: <strong>kode produk</strong> (contoh: YYS-001) atau
+          Cari dengan <strong>kode produk</strong> (contoh: YYS-001) atau
           <strong>nama produk</strong>
         </p>
         <div class="product-count" id="productCount">12 Produk</div>
       </div>
 
+      <!-- LIST PRODUK -->
       <div id="productsContainer" class="products-container">
-        <!-- Produk akan diisi oleh JavaScript -->
+        <!-- Produk diisi oleh JavaScript -->
       </div>
+
+      <!-- CTA BAWAH -->
+      <section class="bottom-cta">
+        <p>
+          Semua tombol akan mengarah langsung ke Shopee untuk melihat
+          <strong>harga terbaru & review lengkap</strong>.
+        </p>
+      </section>
     </main>
 
     <!-- Product Detail Modal -->
     <div id="productModal" class="modal">
       <div class="modal-content">
         <span class="close-modal">&times;</span>
-        <div id="productDetail" class="product-detail">
-          <!-- Detail produk akan diisi oleh JavaScript -->
-        </div>
+        <div id="productDetail" class="product-detail"></div>
       </div>
     </div>
 
@@ -79,7 +113,9 @@
             <i class="fas fa-leaf"></i>
             <span class="logo-text">YayayaShop</span>
           </div>
-          <p class="copyright">© 2026 YayayaShop. Hak Cipta Dilindungi.</p>
+          <p class="copyright">
+            © 2026 YayayaShop — Rekomendasi Produk Shopee
+          </p>
         </div>
       </div>
     </footer>

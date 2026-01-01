@@ -821,3 +821,404 @@ footer {
   font-size: 3rem;
   color: var(--primary-color);
 }
+/* === PERBAIKAN INTRO SECTION === */
+.intro-section {
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 25px;
+}
+
+.intro-section h1.page-title {
+  font-size: 1.4rem;
+  color: var(--gray-dark);
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .intro-section h1.page-title {
+    font-size: 1.7rem;
+  }
+}
+
+.intro-text {
+  font-size: 0.9rem;
+  color: var(--gray-dark);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .intro-text {
+    font-size: 0.95rem;
+  }
+}
+
+.intro-text strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.trust-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+@media (min-width: 576px) {
+  .trust-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .trust-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.trust-list li {
+  background-color: var(--primary-light);
+  color: var(--primary-color);
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trust-list li:before {
+  content: "✓";
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+
+/* === PERBAIKAN HEADER UNTUK MOBILE === */
+@media (max-width: 767px) {
+  .header-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    flex-shrink: 0;
+    margin-right: 0;
+  }
+
+  .logo i {
+    font-size: 1.5rem;
+  }
+
+  .logo-text {
+    font-size: 1.3rem;
+  }
+
+  .search-container {
+    order: 3;
+    flex: 1 0 100%;
+    margin-top: 5px;
+  }
+
+  .search-box {
+    height: 38px;
+  }
+
+  .search-box input {
+    font-size: 0.9rem;
+    padding: 0 12px;
+  }
+}
+
+/* === PERBAIKAN MAIN LAYOUT === */
+main .container {
+  padding-top: 10px;
+}
+
+/* === PERBAIKAN PRODUCT COUNT === */
+.product-count {
+  background-color: var(--primary-light);
+  color: var(--primary-color);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+/* === PERBAIKAN BOTTOM CTA === */
+.bottom-cta {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-dark)
+  );
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.bottom-cta p {
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .bottom-cta {
+    padding: 25px;
+  }
+
+  .bottom-cta p {
+    font-size: 1rem;
+  }
+}
+
+.bottom-cta strong {
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* === PERBAIKAN FOOTER === */
+footer {
+  background-color: var(--gray-dark);
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-content .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content .logo i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.footer-content .logo-text {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: #cccccc;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* === PERBAIKAN PRODUCT CARD PADA MOBILE SANGAT KECIL === */
+@media (max-width: 360px) {
+  .products-container {
+    gap: 8px;
+  }
+
+  .product-card {
+    border-radius: 8px;
+  }
+
+  .product-image {
+    height: 140px;
+  }
+
+  .product-title {
+    font-size: 0.78rem;
+    height: 34px;
+  }
+
+  .product-price {
+    font-size: 0.95rem;
+  }
+
+  .product-info {
+    padding: 10px 8px;
+  }
+
+  .buy-button {
+    padding: 7px;
+    font-size: 0.8rem;
+  }
+}
+
+/* === PERBAIKAN MODAL PADA MOBILE === */
+@media (max-width: 767px) {
+  .modal {
+    padding: 10px;
+    align-items: flex-end;
+  }
+
+  .modal-content {
+    max-height: 85vh;
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+    width: 100%;
+    animation: modalSlideUp 0.3s ease;
+  }
+
+  @keyframes modalSlideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .detail-meta {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+/* === PERBAIKAN SEARCH INFO === */
+.search-info {
+  background-color: var(--white);
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .search-info {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+}
+
+.search-info p {
+  font-size: 0.85rem;
+  color: var(--gray-medium);
+  margin: 0;
+}
+
+.search-info strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* === PERBAIKAN UNTUK TAMPILAN DESKTOP KECIL === */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .products-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .product-image {
+    height: 180px;
+  }
+}
+
+/* === PERBAIKAN UNTUK TABLET LANDSKAPE === */
+@media (min-width: 768px) and (max-width: 991px) {
+  .products-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .product-image {
+    height: 170px;
+  }
+}
+
+/* === CLEAN UP DUPLICATE STYLES === */
+/* Hapus duplikasi .page-title di line 56 */
+.page-title {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: var(--gray-dark);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .page-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Hapus duplikasi .loading-spinner di line 278 */
+.loading-spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.loading-spinner.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.loading-spinner i {
+  font-size: 3rem;
+  color: var(--primary-color);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* === PERBAIKAN Z-INDEX === */
+header {
+  z-index: 1000;
+}
+
+.modal {
+  z-index: 2000;
+}
+
+.loading-spinner {
+  z-index: 3000;
+}
