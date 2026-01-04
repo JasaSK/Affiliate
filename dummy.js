@@ -779,7 +779,7 @@ const products = [
     description:
       "CallieTamami – Himawari Tops Katun Poplin Bigsize hadir dengan desain manis dan feminin, terbuat dari bahan katun poplin yang adem, ringan, dan nyaman dipakai seharian. Dirancang dengan potongan big size yang longgar dan nyaman, atasan ini cocok untuk tampilan harian yang santai namun tetap stylish, mudah dipadukan dengan berbagai bawahan untuk gaya wanita yang fresh dan percaya diri.",
     shopeeLink: "https://s.shopee.co.id/60L3CRVaKX",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAW3t4FsKF-26SPz/",
   },
   {
     id: 47,
@@ -796,7 +796,7 @@ const products = [
     description:
       "NEW YORK SET – Setelan One Set Wanita Atasan & Celana Kulot Salur Stripe hadir dengan desain stripe yang classy dan elegan, memberikan tampilan formal look yang rapi dan berkelas. Dengan potongan fitted body yang menonjolkan siluet tubuh, setelan ini cocok digunakan untuk acara formal, kerja, maupun semi-formal, serta mudah dipadukan dengan aksesoris favorit untuk tampilan wanita yang modern dan profesional.",
     shopeeLink: "https://s.shopee.co.id/6fajztcAjT",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAWby5vjxp-87mCz/",
   },
   {
     id: 48,
@@ -813,7 +813,7 @@ const products = [
     description:
       "Kaos Polo Wanita Arle Knitted Top HULM Basic Minimalis hadir dengan desain polo knit yang simpel dan elegan, menampilkan gaya minimalis yang rapi namun tetap feminin. Terbuat dari bahan rajut yang nyaman dan lembut di kulit, atasan ini cocok untuk aktivitas harian hingga tampilan smart casual, mudah dipadukan dengan rok maupun celana untuk look wanita yang modern dan stylish.",
     shopeeLink: "https://s.shopee.co.id/60L3CwTNHI",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA7NHL6FDm-3VuDq/",
   },
   {
     id: 49,
@@ -830,7 +830,7 @@ const products = [
     description:
       "MISAE – Karla Top / Atasan Wanita Semiwool Premium hadir dengan desain blouse ala Korean style yang elegan dan feminin, memberikan tampilan rapi namun tetap modern. Terbuat dari bahan semiwool premium yang lembut dan nyaman dipakai, atasan ini cocok untuk aktivitas harian maupun acara semi-formal, mudah dipadukan dengan berbagai bawahan untuk menciptakan gaya wanita yang stylish dan berkelas.",
     shopeeLink: "https://s.shopee.co.id/4AtP1jeuKb",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA7kx6B9A6-sfxxy/",
   },
   {
     id: 50,
@@ -847,7 +847,7 @@ const products = [
     description:
       "IRIS TOP | Atasan Knit Wanita Korean Top hadir dengan desain basic yang simpel dan elegan, dilengkapi lengan panjang (long sleeve) untuk tampilan rapi dan feminin. Terbuat dari bahan knit yang lembut, elastis, dan nyaman dipakai seharian, atasan ini cocok untuk gaya Korean look yang minimalis, mudah dipadukan dengan rok atau celana untuk aktivitas harian hingga smart casual.",
     shopeeLink: "https://s.shopee.co.id/60L3DFltKt",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA7U5a8Sx4-9DRBR/",
   },
   // {
   //   id: 51,
