@@ -354,7 +354,7 @@ const products = [
     description:
       "AF – Jasmine Vest Bordir Rompi Pakaian Wanita Outer Korean Style hadir dengan desain rompi bordir yang anggun dan feminin, memberikan sentuhan elegan pada setiap tampilan. Cocok digunakan sebagai outer ala Korean style, vest ini mudah dipadukan dengan kemeja, blouse, atau dress favorit untuk menciptakan look kasual hingga semi-formal yang stylish dan modern.",
     shopeeLink: "https://s.shopee.co.id/9KbOEfCJb6",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA3WVYVCVj-hv5Oe/",
   },
   {
     id: 22,
@@ -371,7 +371,7 @@ const products = [
     description:
       "EVI Vest / Vest Basic Wanita hadir dengan desain crop yang simpel dan modern, terbuat dari bahan semiwol yang nyaman dan memberikan kesan rapi saat dikenakan. Cocok digunakan sebagai atasan maupun outer casual, vest terlaris ini mudah dipadukan dengan kemeja, kaos, atau dress untuk menciptakan tampilan wanita yang stylish, santai, dan kekinian.",
     shopeeLink: "https://s.shopee.co.id/7KqJr7CR1f",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA3cP9WQRH-sgqdU/",
   },
   {
     id: 23,
@@ -388,7 +388,7 @@ const products = [
     description:
       "Naomi Vest Set – Set Blazer Wanita hadir sebagai setelan vest outer dengan rok yang memberikan tampilan feminin, rapi, dan elegan dalam satu paket. Cocok untuk berbagai kesempatan mulai dari kerja, acara formal, hingga semi-formal, set ini mudah dipadukan dengan inner favorit untuk menciptakan gaya wanita yang modern, stylish, dan berkelas.",
     shopeeLink: "https://s.shopee.co.id/7pmaSJoLIn",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA3TgYg7JK-Sn9fb/",
   },
   {
     id: 24,
@@ -405,7 +405,7 @@ const products = [
     description:
       "Namala Blouse Atasan Wanita Lengan Panjang hadir dengan desain kemeja jeans crop top yang stylish dan modern, memberikan tampilan kasual yang fresh dan kekinian. Nyaman dipakai untuk aktivitas harian, blouse ini mudah dipadukan dengan berbagai bawahan seperti jeans, rok, atau celana high waist untuk menciptakan gaya wanita yang modis, simpel, dan tetap nyaman sepanjang hari.",
     shopeeLink: "https://s.shopee.co.id/4AtI6AsvKL",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEATjoKpnyu-iMH4p/",
   },
   {
     id: 25,
@@ -422,7 +422,7 @@ const products = [
     description:
       "FLIDA FASHION – 020 Cardigan Rajut Wanita Premium Best Seller hadir dengan bahan rajut premium yang lembut, hangat, dan nyaman dipakai, dilengkapi kancing hidup, kerah U-neck, serta lengan panjang untuk tampilan rapi dan elegan. Desainnya simpel namun classy, mudah dipadukan sebagai outer maupun atasan, cocok untuk berbagai aktivitas harian hingga acara santai dengan gaya wanita yang stylish dan timeless.",
     shopeeLink: "https://s.shopee.co.id/8V2HGUFAkJ",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAtNF1Vawo-c72VM/",
   },
   {
     id: 26,
@@ -439,7 +439,7 @@ const products = [
     description:
       "Arika Blouse Stripe Atasan Peplum Wanita hadir dengan motif salur yang elegan, dipadukan desain peplum dan lengan puff yang memberikan siluet feminin serta fit body fitted yang menonjolkan bentuk tubuh dengan anggun. Cocok untuk berbagai aktivitas, blouse ini mudah dipadukan dengan rok maupun celana untuk tampilan wanita yang stylish, rapi, dan tetap nyaman dipakai seharian.",
     shopeeLink: "https://s.shopee.co.id/10wGL5Tldz",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAT4bdTaD4-6OX45/",
   },
   {
     id: 27,
@@ -456,7 +456,7 @@ const products = [
     description:
       "Queenie Outer by Boonaachic hadir sebagai atasan wanita dengan desain modern dan elegan, cocok untuk melengkapi berbagai gaya busana wanita masa kini. Mudah dipadukan dengan inner favorit, outer ini memberikan tampilan rapi namun tetap stylish, pas digunakan untuk aktivitas harian, hangout, maupun acara semi-formal dengan sentuhan fashion terbaru.",
     shopeeLink: "https://s.shopee.co.id/AKTvSWIAQI",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEATEJNaoee-I3h8H/",
   },
   {
     id: 28,
@@ -473,7 +473,7 @@ const products = [
     description:
       "Kaos Baseball Wanita Oversize Katun Premium Design Angka Terbaru RR Fashion ID hadir dengan desain angka modern bergaya baseball yang sporty dan kekinian, memberikan tampilan kasual yang standout. Terbuat dari katun premium yang lembut, adem, dan nyaman dipakai seharian, kaos oversize ini cocok untuk berbagai aktivitas harian maupun streetwear look, serta mudah dipadukan dengan jeans, rok, atau celana favoritmu.",
     shopeeLink: "https://s.shopee.co.id/gJPx6Pf9z",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAwJASPu92-sDCee/",
   },
   {
     id: 29,
@@ -490,7 +490,7 @@ const products = [
     description:
       "Vana Blouse – Atasan Peplum Fit Body Knit hadir dengan desain feminin yang menawan, memadukan siluet peplum dan potongan fit body yang menonjolkan bentuk tubuh dengan elegan. Terbuat dari bahan knit yang nyaman, blouse lengan panjang ini cocok untuk berbagai aktivitas, mudah dipadukan dengan rok maupun celana untuk tampilan wanita yang rapi, stylish, dan modern.",
     shopeeLink: "https://s.shopee.co.id/8060h7b8xI",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAwdsh1b3G-f1d21/",
   },
   {
     id: 30,
@@ -507,7 +507,7 @@ const products = [
     description:
       "VELMO Yuki Shirt Katun – Atasan Wanita Kemeja Oversize hadir dengan desain kemeja oversize yang simpel dan modern, memberikan tampilan santai namun tetap rapi. Terbuat dari bahan katun yang adem, lembut, dan nyaman dipakai seharian, kemeja ini mudah dipadukan dengan berbagai bawahan untuk menciptakan gaya wanita yang kasual, stylish, dan kekinian.",
     shopeeLink: "https://s.shopee.co.id/10wGMUmrdQ",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAw8wrse4S-YuTH8/",
   },
   {
     id: 31,
@@ -694,7 +694,7 @@ const products = [
     description:
       "LADY COLLECTION – P0L0 Kardigan Rajut Bordir Lengan Panjang Wanita O-Neck 020 hadir dengan desain rajut elegan yang dilengkapi detail bordir cantik, memberikan kesan feminin dan rapi. Mengusung kerah O-neck serta kancing hidup, kardigan ini nyaman dipakai sebagai outer maupun atasan, mudah dipadukan dengan berbagai outfit untuk tampilan wanita yang stylish, hangat, dan modern.",
     shopeeLink: "https://s.shopee.co.id/6VHJm4HvoM",
-    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAtNF1Vawo-c72VM/",
+    tiktokLink: "",
   },
   {
     id: 42,
@@ -711,7 +711,7 @@ const products = [
     description:
       "LADY COLLECTION – Polo Kaos Wanita Polos Rajut B03 hadir dengan desain kerah O-neck yang simpel dan elegan, memberikan tampilan rapi namun tetap feminin. Terbuat dari bahan knit rajut yang nyaman dan mengikuti bentuk tubuh, atasan ini cocok dipakai untuk aktivitas harian maupun acara santai, mudah dipadukan dengan rok atau celana untuk menciptakan gaya wanita yang langsing, modern, dan stylish.",
     shopeeLink: "https://s.shopee.co.id/2qO1PYdQyf",
-    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAtD9jKbkE-vmlWJ/",
+    tiktokLink: "",
   },
   {
     id: 43,
@@ -728,7 +728,7 @@ const products = [
     description:
       "LADY COLLECTION – POLO Cardigan Wanita Rajutan Lengan Panjang Bordir 020 hadir dengan desain rajutan yang elegan dan detail bordir feminin, memberikan tampilan rapi namun tetap stylish. Dengan lengan panjang dan potongan yang nyaman, kardigan ini cocok digunakan sebagai outer maupun atasan, mudah dipadukan dengan berbagai outfit untuk aktivitas harian hingga acara santai dengan gaya wanita yang anggun dan modern.",
     shopeeLink: "https://s.shopee.co.id/7fTHAUPwMk",
-    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAtKNkqMnf-J1eij/",
+    tiktokLink: "",
   },
   {
     id: 44,
