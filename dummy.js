@@ -694,7 +694,7 @@ const products = [
     description:
       "LADY COLLECTION – P0L0 Kardigan Rajut Bordir Lengan Panjang Wanita O-Neck 020 hadir dengan desain rajut elegan yang dilengkapi detail bordir cantik, memberikan kesan feminin dan rapi. Mengusung kerah O-neck serta kancing hidup, kardigan ini nyaman dipakai sebagai outer maupun atasan, mudah dipadukan dengan berbagai outfit untuk tampilan wanita yang stylish, hangat, dan modern.",
     shopeeLink: "https://s.shopee.co.id/6VHJm4HvoM",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAtNF1Vawo-c72VM/",
   },
   {
     id: 42,
@@ -711,7 +711,7 @@ const products = [
     description:
       "LADY COLLECTION – Polo Kaos Wanita Polos Rajut B03 hadir dengan desain kerah O-neck yang simpel dan elegan, memberikan tampilan rapi namun tetap feminin. Terbuat dari bahan knit rajut yang nyaman dan mengikuti bentuk tubuh, atasan ini cocok dipakai untuk aktivitas harian maupun acara santai, mudah dipadukan dengan rok atau celana untuk menciptakan gaya wanita yang langsing, modern, dan stylish.",
     shopeeLink: "https://s.shopee.co.id/2qO1PYdQyf",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAtD9jKbkE-vmlWJ/",
   },
   {
     id: 43,
@@ -728,7 +728,7 @@ const products = [
     description:
       "LADY COLLECTION – POLO Cardigan Wanita Rajutan Lengan Panjang Bordir 020 hadir dengan desain rajutan yang elegan dan detail bordir feminin, memberikan tampilan rapi namun tetap stylish. Dengan lengan panjang dan potongan yang nyaman, kardigan ini cocok digunakan sebagai outer maupun atasan, mudah dipadukan dengan berbagai outfit untuk aktivitas harian hingga acara santai dengan gaya wanita yang anggun dan modern.",
     shopeeLink: "https://s.shopee.co.id/7fTHAUPwMk",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAtKNkqMnf-J1eij/",
   },
   {
     id: 44,

@@ -1253,3 +1253,34 @@ header {
 .detail-buy-button.tiktok {
   background: #000;
 }
+
+.buy-button.disabled,
+.detail-buy-button.disabled {
+  background: #ccc !important;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Toast */
+.toast-error {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: #ff4d4f;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.toast-error.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

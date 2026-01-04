@@ -1,4 +1,8 @@
 // Fungsi untuk menampilkan produk
+function isValidLink(link) {
+  return typeof link === "string" && link.trim() !== "";
+}
+
 function displayProducts(productsToShow) {
   const productsContainer = document.getElementById("productsContainer");
   const productCount = document.getElementById("productCount");
@@ -28,7 +32,8 @@ function displayProducts(productsToShow) {
     const discount = Math.round(
       ((product.originalPrice - product.price) / product.originalPrice) * 100
     );
-
+    const shopeeAvailable = isValidLink(product.shopeeLink);
+    const tiktokAvailable = isValidLink(product.tiktokLink);
     // Format harga
     const formattedPrice = product.price.toLocaleString("id-ID");
     const formattedOriginalPrice =
@@ -74,14 +79,24 @@ function displayProducts(productsToShow) {
         </div>
 
        <div class="buy-actions">
-        <a href="${product.shopeeLink}" target="_blank" class="buy-button shopee">
-          <i class="fas fa-shopping-cart"></i> Shopee
-        </a>
+    <button
+      class="buy-button shopee ${!shopeeAvailable ? "disabled" : ""}"
+      data-platform="Shopee"
+      data-link="${product.shopeeLink || ""}"
+      ${!shopeeAvailable ? "disabled" : ""}
+    >
+      <i class="fas fa-shopping-cart"></i> Shopee
+    </button>
 
-        <a href="${product.tiktokLink}" target="_blank" class="buy-button tiktok">
-          <i class="fab fa-tiktok"></i> TikTok
-        </a>
-       </div>
+    <button
+      class="buy-button tiktok ${!tiktokAvailable ? "disabled" : ""}"
+      data-platform="TikTok Shop"
+      data-link="${product.tiktokLink || ""}"
+      ${!tiktokAvailable ? "disabled" : ""}
+    >
+      <i class="fab fa-tiktok"></i> TikTok
+    </button>
+  </div>
       </div>
     `;
 
@@ -127,7 +142,8 @@ function generateStarRating(rating) {
 function showProductDetail(product) {
   const productDetail = document.getElementById("productDetail");
   const modal = document.getElementById("productModal");
-
+  const shopeeAvailable = isValidLink(product.shopeeLink);
+  const tiktokAvailable = isValidLink(product.tiktokLink);
   // Hitung diskon
   const discount = Math.round(
     ((product.originalPrice - product.price) / product.originalPrice) * 100
@@ -187,15 +203,25 @@ function showProductDetail(product) {
       </div>
 
       <p class="detail-description">${product.description}</p>
-<div class="detail-buy-actions">
-  <a href="${product.shopeeLink}" target="_blank" class="detail-buy-button shopee">
-    <i class="fas fa-shopping-cart"></i> Beli via Shopee
-  </a>
+  <div class="detail-buy-actions">
+    <button
+      class="detail-buy-button shopee ${!shopeeAvailable ? "disabled" : ""}"
+      data-platform="Shopee"
+      data-link="${product.shopeeLink || ""}"
+      ${!shopeeAvailable ? "disabled" : ""}
+    >
+      <i class="fas fa-shopping-cart"></i> Beli via Shopee
+    </button>
 
-  <a href="${product.tiktokLink}" target="_blank" class="detail-buy-button tiktok">
-    <i class="fab fa-tiktok"></i> Beli via TikTok
-  </a>
-</div>
+    <button
+      class="detail-buy-button tiktok ${!tiktokAvailable ? "disabled" : ""}"
+      data-platform="TikTok Shop"
+      data-link="${product.tiktokLink || ""}"
+      ${!tiktokAvailable ? "disabled" : ""}
+    >
+      <i class="fab fa-tiktok"></i> Beli via TikTok
+    </button>
+  </div>
 
     </div>
   `;
@@ -282,3 +308,38 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+document.addEventListener("click", function (e) {
+  const button = e.target.closest(".buy-button, .detail-buy-button");
+  if (!button) return;
+
+  // cegah trigger klik card
+  e.stopPropagation();
+
+  const link = button.dataset.link;
+  const platform = button.dataset.platform;
+
+  if (!isValidLink(link)) {
+    showUnavailableMessage(platform);
+    return;
+  }
+
+  window.open(link, "_blank");
+});
+function showUnavailableMessage(platform) {
+  const toast = document.createElement("div");
+  toast.className = "toast-error";
+  toast.innerHTML = `
+    <i class="fas fa-exclamation-circle"></i>
+    Produk tidak tersedia di ${platform}
+  `;
+
+  document.body.appendChild(toast);
+
+  setTimeout(() => toast.classList.add("show"), 50);
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+    setTimeout(() => toast.remove(), 300);
+  }, 2500);
+}
