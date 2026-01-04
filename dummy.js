@@ -14,6 +14,7 @@ const products = [
     description:
       "Benidson Aerysm Kaos Oversized T-Shirt Polos Korean Style hadir dengan bahan Aerysm yang ringan, adem, dan super nyaman dipakai seharian, memberikan sensasi lembut di kulit serta sirkulasi udara yang baik. Desain polos minimalis dengan potongan oversized ala Korean style membuat tampilan terlihat clean, modern, dan effortlessly stylish, mudah dipadukan dengan berbagai outfit seperti jeans, cargo, atau outer favorit untuk aktivitas harian, hangout, maupun casual look.",
     shopeeLink: "https://s.shopee.co.id/8fLf47UXRo",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA4wuk3Tq8-2Ttqs/",
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ const products = [
     description:
       "Tampil santai dan stylish dengan Benidson Oversized Tshirt berbahan katun premium yang lembut, adem, dan nyaman dipakai seharian. Desain garis-garis modern memberikan kesan kasual kekinian, cocok untuk berbagai aktivitas seperti hangout, kuliah, kerja santai, hingga daily outfit.",
     shopeeLink: "https://s.shopee.co.id/gJNbCEfYt",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAVxmf2ETq-3DIdr/",
   },
   {
     id: 3,
@@ -46,6 +48,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Liquor Katun Korean hadir dengan desain grafis bertema liquor yang bold dan stylish, dipadukan dengan bahan katun berkualitas yang lembut, adem, dan nyaman dipakai seharian. Potongan oversized ala Korean style memberikan kesan trendy dan santai, cocok untuk daily outfit, hangout, atau streetwear look, serta mudah dipadukan dengan jeans, cargo, maupun sneakers favorit.",
     shopeeLink: "https://s.shopee.co.id/VzxPCkC9x",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAVpSHJ43s-VNm8a/",
   },
   {
     id: 4,
@@ -62,6 +65,7 @@ const products = [
     description:
       "BENIDSON Oversized Tshirt Sheesh hadir dengan desain grafis “Sheesh” yang catchy dan penuh karakter, cocok untuk kamu yang ingin tampil standout dengan gaya kasual modern. Dibuat dari bahan katun yang adem, lembut, dan nyaman dipakai seharian, kaos ini mengusung potongan oversized yang mengikuti tren Korean street style, mudah dipadukan dengan berbagai outfit untuk aktivitas harian maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/8V2EwAnyRp",
+    tiktokLink: "",
   },
   {
     id: 5,
@@ -78,6 +82,7 @@ const products = [
     description:
       "Benidson Oversized Kaos Bump Katun Korean Style hadir dengan desain grafis “Bump” yang simpel namun eye-catching, dipadukan dengan bahan katun berkualitas yang lembut, adem, dan nyaman dipakai sepanjang hari. Potongan oversized khas Korean style memberikan tampilan kasual modern yang trendy, mudah dipadukan dengan jeans, cargo, atau outfit favorit untuk daily look dan hangout.",
     shopeeLink: "https://s.shopee.co.id/3B0iaajRTw",
+    tiktokLink: "",
   },
   {
     id: 6,
@@ -94,6 +99,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Stick Logo Katun M–2XL hadir dengan desain logo stick yang minimalis dan modern, cocok untuk tampilan simpel namun tetap stylish. Terbuat dari bahan katun berkualitas yang adem, lembut, dan nyaman dipakai seharian, kaos ini menggunakan potongan oversized ala Korean style dengan pilihan ukuran M hingga 2XL, mudah dipadukan dengan berbagai outfit untuk aktivitas harian maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/2LRbbIQfvV",
+    tiktokLink: "",
   },
   {
     id: 7,
@@ -110,6 +116,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Katun Unisex L–2XL hadir dengan desain simpel dan potongan oversized yang nyaman, cocok digunakan oleh pria maupun wanita. Terbuat dari bahan katun berkualitas yang adem, lembut, dan menyerap keringat, kaos ini nyaman dipakai seharian serta mudah dipadukan dengan berbagai gaya outfit kasual untuk aktivitas harian, hangout, maupun santai.",
     shopeeLink: "https://s.shopee.co.id/9zr2jUYf8y",
+    tiktokLink: "",
   },
   {
     id: 8,
@@ -126,6 +133,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Squarepants Power Katun M–2XL hadir dengan desain grafis Squarepants Power yang fun dan eye-catching, cocok untuk kamu yang ingin tampil playful namun tetap stylish. Terbuat dari bahan katun berkualitas yang adem, lembut, dan nyaman dipakai seharian, kaos ini mengusung potongan oversized ala Korean style dengan pilihan ukuran M hingga 2XL, mudah dipadukan dengan berbagai outfit kasual untuk daily look maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/2LRbbfOwkG",
+    tiktokLink: "",
   },
   {
     id: 9,
@@ -142,6 +150,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Green Issue Katun Korean hadir dengan desain bertema Green Issue yang modern dan berkarakter, cocok untuk tampilan kasual yang fresh dan kekinian. Terbuat dari bahan katun berkualitas yang adem, lembut, dan nyaman dipakai seharian, kaos ini mengusung potongan oversized ala Korean style sehingga mudah dipadukan dengan berbagai outfit untuk aktivitas harian maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/8zyVY6ydcr",
+    tiktokLink: "",
   },
   {
     id: 10,
@@ -158,6 +167,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Jaguars Katun Korean hadir dengan desain grafis Jaguars yang bold dan sporty, memberikan kesan kuat dan stylish pada tampilan kasualmu. Dibuat dari bahan katun berkualitas yang adem, lembut, dan nyaman dipakai seharian, kaos ini mengusung potongan oversized ala Korean style yang trendy dan mudah dipadukan dengan berbagai outfit untuk aktivitas harian maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/1gBuop112T",
+    tiktokLink: "",
   },
   {
     id: 11,
@@ -174,6 +184,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Discredit Black Katun Premium hadir dengan desain grafis “Discredit” bernuansa hitam yang tegas dan modern, cocok untuk kamu yang ingin tampil bold dan berkarakter. Terbuat dari bahan katun premium yang lembut, adem, dan nyaman dipakai seharian, kaos ini mengusung potongan oversize yang trendy serta mudah dipadukan dengan berbagai outfit streetwear maupun kasual untuk aktivitas harian.",
     shopeeLink: "https://s.shopee.co.id/3VdZgDa2sr",
+    tiktokLink: "",
   },
   {
     id: 12,
@@ -190,6 +201,7 @@ const products = [
     description:
       "Thenational Boxy Fit Oversized T-Shirt Brody Katun Combed 24s hadir dengan potongan boxy fit yang modern dan proporsional, memberikan tampilan kasual yang clean namun tetap stylish. Terbuat dari bahan katun combed 24s berkualitas yang lembut, adem, dan nyaman dipakai seharian, kaos ini cocok untuk daily wear maupun streetwear look, serta mudah dipadukan dengan berbagai outfit favoritmu.",
     shopeeLink: "https://s.shopee.co.id/30hJ5ZA7By",
+    tiktokLink: "",
   },
   {
     id: 13,
@@ -206,6 +218,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Chase Black Katun Combed 24s hadir dengan desain simpel berwarna hitam yang timeless dan mudah dipadukan dengan berbagai gaya. Terbuat dari bahan katun combed 24s berkualitas yang lembut, adem, dan nyaman dipakai seharian, kaos ini mengusung potongan oversize yang modern, cocok untuk tampilan kasual maupun streetwear sehari-hari.",
     shopeeLink: "https://s.shopee.co.id/4fpX4xrVPk",
+    tiktokLink: "",
   },
   {
     id: 14,
@@ -222,6 +235,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Number Line Black hadir dengan desain grafis Number Line yang minimalis dan modern, memberikan kesan clean namun tetap berkarakter pada tampilan kasualmu. Dengan warna hitam yang timeless dan potongan oversize yang nyaman, kaos ini cocok untuk dipakai sehari-hari maupun gaya streetwear, serta mudah dipadukan dengan berbagai outfit favorit.",
     shopeeLink: "https://s.shopee.co.id/3B0jIUOvb9",
+    tiktokLink: "",
   },
   {
     id: 15,
@@ -238,6 +252,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Katun Hitam S–XL hadir dengan desain simpel dan warna hitam yang timeless, cocok untuk berbagai gaya kasual maupun streetwear. Terbuat dari bahan katun yang lembut, adem, dan nyaman dipakai seharian, kaos ini menggunakan potongan oversize yang modern dengan pilihan ukuran S hingga XL, mudah dipadukan dengan berbagai outfit favorit untuk aktivitas harian.",
     shopeeLink: "https://s.shopee.co.id/BN7jC4qSi",
+    tiktokLink: "",
   },
   {
     id: 16,
@@ -254,6 +269,7 @@ const products = [
     description:
       "Thenational Oversize Rugby Polo Shirt DarkSynergy hadir dengan desain rugby polo bernuansa DarkSynergy yang maskulin dan modern, memadukan gaya sporty dan streetwear dalam satu tampilan. Mengusung potongan oversize yang nyaman, kaos polo ini cocok untuk aktivitas harian maupun casual look, serta mudah dipadukan dengan berbagai outfit untuk tampil standout namun tetap santai.",
     shopeeLink: "https://s.shopee.co.id/2g4ShwZYIf",
+    tiktokLink: "",
   },
   {
     id: 17,
@@ -270,6 +286,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Katun Combed 24s Hitam hadir dengan desain simpel dan warna hitam yang timeless, memberikan tampilan kasual yang clean dan mudah dipadukan. Terbuat dari bahan katun combed 24s berkualitas yang lembut, adem, dan nyaman dipakai seharian, kaos ini menggunakan potongan oversize modern yang cocok untuk daily wear maupun gaya streetwear.",
     shopeeLink: "https://s.shopee.co.id/20oluyeDhb",
+    tiktokLink: "",
   },
   {
     id: 18,
@@ -286,6 +303,7 @@ const products = [
     description:
       "Thenational Boxy Fit 24s Oversized T-Shirt Scott hadir dengan potongan boxy fit yang modern dan proporsional, memberikan siluet kasual yang rapi namun tetap trendy. Terbuat dari bahan katun 24s berkualitas yang lembut, adem, dan nyaman dipakai seharian, kaos ini cocok untuk daily wear maupun streetwear look, serta mudah dipadukan dengan berbagai outfit favorit.",
     shopeeLink: "https://s.shopee.co.id/2qNsuh6DLs",
+    tiktokLink: "",
   },
   {
     id: 19,
@@ -302,6 +320,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Dressing Dark Purple hadir dengan desain modern bernuansa dark purple yang elegan dan berkarakter, cocok untuk kamu yang ingin tampil beda namun tetap stylish. Mengusung potongan oversize yang nyaman, kaos ini pas untuk daily wear maupun streetwear look, serta mudah dipadukan dengan berbagai outfit kasual favorit.",
     shopeeLink: "https://s.shopee.co.id/3VdZi3giuX",
+    tiktokLink: "",
   },
   {
     id: 20,
@@ -318,6 +337,7 @@ const products = [
     description:
       "Thenational Oversized T-Shirt Smile White Kaos Pria & Wanita hadir dengan desain grafis “Smile” yang playful dan fresh, memberikan kesan ceria pada tampilan kasual. Dengan warna putih yang clean dan potongan oversized yang nyaman, kaos ini cocok dipakai oleh pria maupun wanita, mudah dipadukan dengan berbagai outfit untuk daily wear, hangout, maupun gaya streetwear santai.",
     shopeeLink: "https://s.shopee.co.id/50SNUyX2gP",
+    tiktokLink: "",
   },
   {
     id: 21,
@@ -334,6 +354,7 @@ const products = [
     description:
       "AF – Jasmine Vest Bordir Rompi Pakaian Wanita Outer Korean Style hadir dengan desain rompi bordir yang anggun dan feminin, memberikan sentuhan elegan pada setiap tampilan. Cocok digunakan sebagai outer ala Korean style, vest ini mudah dipadukan dengan kemeja, blouse, atau dress favorit untuk menciptakan look kasual hingga semi-formal yang stylish dan modern.",
     shopeeLink: "https://s.shopee.co.id/9KbOEfCJb6",
+    tiktokLink: "",
   },
   {
     id: 22,
@@ -350,6 +371,7 @@ const products = [
     description:
       "EVI Vest / Vest Basic Wanita hadir dengan desain crop yang simpel dan modern, terbuat dari bahan semiwol yang nyaman dan memberikan kesan rapi saat dikenakan. Cocok digunakan sebagai atasan maupun outer casual, vest terlaris ini mudah dipadukan dengan kemeja, kaos, atau dress untuk menciptakan tampilan wanita yang stylish, santai, dan kekinian.",
     shopeeLink: "https://s.shopee.co.id/7KqJr7CR1f",
+    tiktokLink: "",
   },
   {
     id: 23,
@@ -366,6 +388,7 @@ const products = [
     description:
       "Naomi Vest Set – Set Blazer Wanita hadir sebagai setelan vest outer dengan rok yang memberikan tampilan feminin, rapi, dan elegan dalam satu paket. Cocok untuk berbagai kesempatan mulai dari kerja, acara formal, hingga semi-formal, set ini mudah dipadukan dengan inner favorit untuk menciptakan gaya wanita yang modern, stylish, dan berkelas.",
     shopeeLink: "https://s.shopee.co.id/7pmaSJoLIn",
+    tiktokLink: "",
   },
   {
     id: 24,
@@ -382,6 +405,7 @@ const products = [
     description:
       "Namala Blouse Atasan Wanita Lengan Panjang hadir dengan desain kemeja jeans crop top yang stylish dan modern, memberikan tampilan kasual yang fresh dan kekinian. Nyaman dipakai untuk aktivitas harian, blouse ini mudah dipadukan dengan berbagai bawahan seperti jeans, rok, atau celana high waist untuk menciptakan gaya wanita yang modis, simpel, dan tetap nyaman sepanjang hari.",
     shopeeLink: "https://s.shopee.co.id/4AtI6AsvKL",
+    tiktokLink: "",
   },
   {
     id: 25,
@@ -398,6 +422,7 @@ const products = [
     description:
       "FLIDA FASHION – 020 Cardigan Rajut Wanita Premium Best Seller hadir dengan bahan rajut premium yang lembut, hangat, dan nyaman dipakai, dilengkapi kancing hidup, kerah U-neck, serta lengan panjang untuk tampilan rapi dan elegan. Desainnya simpel namun classy, mudah dipadukan sebagai outer maupun atasan, cocok untuk berbagai aktivitas harian hingga acara santai dengan gaya wanita yang stylish dan timeless.",
     shopeeLink: "https://s.shopee.co.id/8V2HGUFAkJ",
+    tiktokLink: "",
   },
   {
     id: 26,
@@ -414,6 +439,7 @@ const products = [
     description:
       "Arika Blouse Stripe Atasan Peplum Wanita hadir dengan motif salur yang elegan, dipadukan desain peplum dan lengan puff yang memberikan siluet feminin serta fit body fitted yang menonjolkan bentuk tubuh dengan anggun. Cocok untuk berbagai aktivitas, blouse ini mudah dipadukan dengan rok maupun celana untuk tampilan wanita yang stylish, rapi, dan tetap nyaman dipakai seharian.",
     shopeeLink: "https://s.shopee.co.id/10wGL5Tldz",
+    tiktokLink: "",
   },
   {
     id: 27,
@@ -430,6 +456,7 @@ const products = [
     description:
       "Queenie Outer by Boonaachic hadir sebagai atasan wanita dengan desain modern dan elegan, cocok untuk melengkapi berbagai gaya busana wanita masa kini. Mudah dipadukan dengan inner favorit, outer ini memberikan tampilan rapi namun tetap stylish, pas digunakan untuk aktivitas harian, hangout, maupun acara semi-formal dengan sentuhan fashion terbaru.",
     shopeeLink: "https://s.shopee.co.id/AKTvSWIAQI",
+    tiktokLink: "",
   },
   {
     id: 28,
@@ -446,6 +473,7 @@ const products = [
     description:
       "Kaos Baseball Wanita Oversize Katun Premium Design Angka Terbaru RR Fashion ID hadir dengan desain angka modern bergaya baseball yang sporty dan kekinian, memberikan tampilan kasual yang standout. Terbuat dari katun premium yang lembut, adem, dan nyaman dipakai seharian, kaos oversize ini cocok untuk berbagai aktivitas harian maupun streetwear look, serta mudah dipadukan dengan jeans, rok, atau celana favoritmu.",
     shopeeLink: "https://s.shopee.co.id/gJPx6Pf9z",
+    tiktokLink: "",
   },
   {
     id: 29,
@@ -462,6 +490,7 @@ const products = [
     description:
       "Vana Blouse – Atasan Peplum Fit Body Knit hadir dengan desain feminin yang menawan, memadukan siluet peplum dan potongan fit body yang menonjolkan bentuk tubuh dengan elegan. Terbuat dari bahan knit yang nyaman, blouse lengan panjang ini cocok untuk berbagai aktivitas, mudah dipadukan dengan rok maupun celana untuk tampilan wanita yang rapi, stylish, dan modern.",
     shopeeLink: "https://s.shopee.co.id/8060h7b8xI",
+    tiktokLink: "",
   },
   {
     id: 30,
@@ -478,12 +507,13 @@ const products = [
     description:
       "VELMO Yuki Shirt Katun – Atasan Wanita Kemeja Oversize hadir dengan desain kemeja oversize yang simpel dan modern, memberikan tampilan santai namun tetap rapi. Terbuat dari bahan katun yang adem, lembut, dan nyaman dipakai seharian, kemeja ini mudah dipadukan dengan berbagai bawahan untuk menciptakan gaya wanita yang kasual, stylish, dan kekinian.",
     shopeeLink: "https://s.shopee.co.id/10wGMUmrdQ",
+    tiktokLink: "",
   },
   {
     id: 31,
     code: "YYS-031",
-    name: "Thenational Oversize T-Shirt Discredit Black Katun Premium",
-    price: 157000,
+    name: "JINISO - Ultra Highwaist Cutbray Stretch Jeans Hangout",
+    price: 199000,
     originalPrice: 598571,
     rating: 4.9,
     reviewCount: "44,1RB",
@@ -494,6 +524,7 @@ const products = [
     description:
       "JINISO – Ultra Highwaist Cutbray Stretch Jeans Hangout hadir dengan potongan highwaist yang menonjolkan siluet kaki lebih jenjang, dipadukan model cutbray yang stylish dan kekinian. Terbuat dari bahan jeans stretch yang nyaman dan fleksibel, celana ini cocok untuk hangout maupun aktivitas harian, mudah dipadukan dengan berbagai atasan untuk tampilan kasual yang trendi dan percaya diri.",
     shopeeLink: "https://s.shopee.co.id/AUnQQx2xmL",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAbuJnjtyG-P5IUM/",
   },
   {
     id: 32,
@@ -510,6 +541,7 @@ const products = [
     description:
       "JINISO – Ultra Highwaist Baggy Loose Overtime Jeans hadir dengan potongan highwaist yang memberikan kesan kaki lebih jenjang, dipadukan model baggy loose yang santai dan kekinian. Terbuat dari bahan jeans yang nyaman dipakai seharian, celana ini cocok untuk aktivitas harian maupun hangout, mudah dipadukan dengan berbagai atasan untuk tampilan kasual yang stylish dan modern.",
     shopeeLink: "https://s.shopee.co.id/20osJWljKK",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAqvV2xqXH-BaK9b/",
   },
   {
     id: 33,
@@ -526,6 +558,7 @@ const products = [
     description:
       "JINISO – Highwaist Stretch Cutbray Pocket Jeans Hangout hadir dengan desain highwaist yang menonjolkan siluet tubuh, dipadukan model cutbray dengan detail pocket yang stylish. Terbuat dari bahan jeans stretch yang elastis dan nyaman dipakai seharian, celana ini cocok untuk hangout maupun aktivitas harian, mudah dipadukan dengan berbagai atasan untuk tampilan kasual yang trendi dan percaya diri.",
     shopeeLink: "https://s.shopee.co.id/5Alu5PY7yk",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAbcn1tLqC-dAPWh/",
   },
   {
     id: 34,
@@ -542,6 +575,7 @@ const products = [
     description:
       "JINISO – Highwaist Oversize Baggy Loose Jeans 688 WEEKEND hadir dengan potongan highwaist yang memberi kesan kaki lebih jenjang, dipadukan model oversize baggy loose yang santai dan kekinian. Terbuat dari bahan jeans berkualitas yang nyaman dipakai seharian, celana ini cocok untuk weekend look maupun aktivitas kasual, mudah dipadukan dengan berbagai atasan untuk tampilan stylish dan effortless.",
     shopeeLink: "https://s.shopee.co.id/9UutFZ8eu2",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAgkb8fq1m-aZ6Rn/",
   },
   {
     id: 35,
@@ -558,6 +592,7 @@ const products = [
     description:
       "JINISO – Jorts Baggy Short Jeans Skater hadir dengan model jorts baggy yang longgar dan nyaman, mengusung gaya skater yang santai dan kekinian. Terbuat dari bahan jeans berkualitas yang kuat namun tetap nyaman dipakai, celana pendek ini cocok untuk aktivitas harian maupun hangout, mudah dipadukan dengan kaos atau hoodie favorit untuk tampilan kasual yang stylish.",
     shopeeLink: "https://s.shopee.co.id/qcuvpsKpg",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAguR6jxSo-XgKxo/",
   },
   {
     id: 36,
@@ -574,6 +609,7 @@ const products = [
     description:
       "JINISO – Highwaist Rok Ashley Jeans Panjang 908 SEVENTY hadir dengan desain highwaist yang memberi kesan kaki lebih jenjang, dipadukan potongan rok jeans panjang yang simpel dan elegan. Terbuat dari bahan denim berkualitas yang nyaman dipakai, rok ini cocok untuk aktivitas harian maupun hangout, mudah dipadukan dengan berbagai atasan untuk tampilan kasual yang modern dan stylish.",
     shopeeLink: "https://s.shopee.co.id/1gC1vc4pKk",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEApDwFDEnf-8RPwF/",
   },
   {
     id: 37,
@@ -590,6 +626,7 @@ const products = [
     description:
       "JINISO – Oversize Jaket Jeans hadir dengan desain jaket denim oversize yang trendy dan kekinian, memberikan tampilan kasual yang stylish dan effortless. Terbuat dari bahan jeans berkualitas yang nyaman dipakai, jaket ini cocok dijadikan outer untuk berbagai aktivitas, mudah dipadukan dengan kaos, hoodie, atau dress untuk menciptakan look modern dan fashionable.",
     shopeeLink: "https://s.shopee.co.id/5L5KIdwnR6",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEApbuMDnbV-1i5mA/",
   },
   {
     id: 38,
@@ -605,7 +642,8 @@ const products = [
     category: "Fashion",
     description:
       "JINISO Jaket Crop Jeans Oversize Boxy Bio Spray hadir dengan desain crop dan potongan oversize boxy yang modern, memberikan tampilan edgy dan kekinian. Terbuat dari bahan denim berkualitas dengan sentuhan bio spray, jaket ini nyaman dipakai sebagai outer untuk berbagai aktivitas, mudah dipadukan dengan berbagai outfit untuk menciptakan gaya kasual yang stylish dan standout.",
-    shopeeLink: "https://s.shopee.co.id/2qNsuh6DLs",
+    shopeeLink: "https://s.shopee.co.id/1gC5FFkdV7",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAsDejacEk-caOQo/",
   },
   {
     id: 39,
@@ -622,6 +660,7 @@ const products = [
     description:
       "JINISO – Ultra Highwaist Baggy Loose Jeans 665 OVERTIME hadir dengan potongan ultra highwaist yang memberikan siluet kaki lebih jenjang, dipadukan model baggy loose yang santai dan kekinian. Terbuat dari bahan jeans berkualitas yang nyaman dipakai seharian, celana ini cocok untuk aktivitas harian maupun hangout, mudah dipadukan dengan berbagai atasan untuk tampilan kasual yang stylish dan modern.",
     shopeeLink: "https://s.shopee.co.id/4q93iO7dtB",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAsGxRCSDL-0Hgpj/",
   },
   {
     id: 40,
@@ -638,6 +677,7 @@ const products = [
     description:
       "JINISO – Highwaist Oversize Baggy Loose Jeans 773 WEEKEND hadir dengan potongan highwaist yang memberikan kesan kaki lebih jenjang, dipadukan model oversize baggy loose yang santai dan kekinian. Terbuat dari bahan jeans berkualitas yang nyaman dipakai seharian, celana ini cocok untuk weekend look maupun aktivitas kasual, mudah dipadukan dengan berbagai atasan untuk tampilan modern, stylish, dan effortless.",
     shopeeLink: "https://s.shopee.co.id/9AI2saLNLt",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAgdt86gU5-bnI2F/",
   },
   {
     id: 41,
@@ -654,6 +694,7 @@ const products = [
     description:
       "LADY COLLECTION – P0L0 Kardigan Rajut Bordir Lengan Panjang Wanita O-Neck 020 hadir dengan desain rajut elegan yang dilengkapi detail bordir cantik, memberikan kesan feminin dan rapi. Mengusung kerah O-neck serta kancing hidup, kardigan ini nyaman dipakai sebagai outer maupun atasan, mudah dipadukan dengan berbagai outfit untuk tampilan wanita yang stylish, hangat, dan modern.",
     shopeeLink: "https://s.shopee.co.id/6VHJm4HvoM",
+    tiktokLink: "",
   },
   {
     id: 42,
@@ -670,6 +711,7 @@ const products = [
     description:
       "LADY COLLECTION – Polo Kaos Wanita Polos Rajut B03 hadir dengan desain kerah O-neck yang simpel dan elegan, memberikan tampilan rapi namun tetap feminin. Terbuat dari bahan knit rajut yang nyaman dan mengikuti bentuk tubuh, atasan ini cocok dipakai untuk aktivitas harian maupun acara santai, mudah dipadukan dengan rok atau celana untuk menciptakan gaya wanita yang langsing, modern, dan stylish.",
     shopeeLink: "https://s.shopee.co.id/2qO1PYdQyf",
+    tiktokLink: "",
   },
   {
     id: 43,
@@ -686,6 +728,7 @@ const products = [
     description:
       "LADY COLLECTION – POLO Cardigan Wanita Rajutan Lengan Panjang Bordir 020 hadir dengan desain rajutan yang elegan dan detail bordir feminin, memberikan tampilan rapi namun tetap stylish. Dengan lengan panjang dan potongan yang nyaman, kardigan ini cocok digunakan sebagai outer maupun atasan, mudah dipadukan dengan berbagai outfit untuk aktivitas harian hingga acara santai dengan gaya wanita yang anggun dan modern.",
     shopeeLink: "https://s.shopee.co.id/7fTHAUPwMk",
+    tiktokLink: "",
   },
   {
     id: 44,
@@ -702,6 +745,7 @@ const products = [
     description:
       "LADY COLLECTION – POLO Cardigan Rajut Lengan Panjang Wanita C01 hadir dengan desain rajut yang simpel dan elegan, memberikan tampilan rapi serta feminin. Mengusung potongan nyaman dengan lengan panjang, kardigan ini cocok digunakan sebagai outer maupun atasan, mudah dipadukan dengan berbagai outfit untuk aktivitas harian hingga acara santai dengan gaya wanita yang modern dan stylish.",
     shopeeLink: "https://s.shopee.co.id/1LZDd6X4Nf",
+    tiktokLink: "",
   },
   {
     id: 45,
@@ -718,6 +762,7 @@ const products = [
     description:
       "LADY COLLECTION – Jaket Rajut Wanita Resleting Double Turtle Neck D16 hadir dengan desain elegan dan fungsional, dilengkapi resleting double serta model turtle neck yang memberikan kesan hangat dan stylish. Terbuat dari bahan rajut premium yang lembut dan nyaman dipakai, jaket lengan panjang ini cocok digunakan sebagai outer untuk aktivitas harian maupun acara santai, mudah dipadukan dengan berbagai outfit untuk tampilan wanita yang modern dan berkelas.",
     shopeeLink: "https://s.shopee.co.id/5q1cznJBXv",
+    tiktokLink: "",
   },
   {
     id: 46,
@@ -734,6 +779,7 @@ const products = [
     description:
       "CallieTamami – Himawari Tops Katun Poplin Bigsize hadir dengan desain manis dan feminin, terbuat dari bahan katun poplin yang adem, ringan, dan nyaman dipakai seharian. Dirancang dengan potongan big size yang longgar dan nyaman, atasan ini cocok untuk tampilan harian yang santai namun tetap stylish, mudah dipadukan dengan berbagai bawahan untuk gaya wanita yang fresh dan percaya diri.",
     shopeeLink: "https://s.shopee.co.id/60L3CRVaKX",
+    tiktokLink: "",
   },
   {
     id: 47,
@@ -750,6 +796,7 @@ const products = [
     description:
       "NEW YORK SET – Setelan One Set Wanita Atasan & Celana Kulot Salur Stripe hadir dengan desain stripe yang classy dan elegan, memberikan tampilan formal look yang rapi dan berkelas. Dengan potongan fitted body yang menonjolkan siluet tubuh, setelan ini cocok digunakan untuk acara formal, kerja, maupun semi-formal, serta mudah dipadukan dengan aksesoris favorit untuk tampilan wanita yang modern dan profesional.",
     shopeeLink: "https://s.shopee.co.id/6fajztcAjT",
+    tiktokLink: "",
   },
   {
     id: 48,
@@ -766,6 +813,7 @@ const products = [
     description:
       "Kaos Polo Wanita Arle Knitted Top HULM Basic Minimalis hadir dengan desain polo knit yang simpel dan elegan, menampilkan gaya minimalis yang rapi namun tetap feminin. Terbuat dari bahan rajut yang nyaman dan lembut di kulit, atasan ini cocok untuk aktivitas harian hingga tampilan smart casual, mudah dipadukan dengan rok maupun celana untuk look wanita yang modern dan stylish.",
     shopeeLink: "https://s.shopee.co.id/60L3CwTNHI",
+    tiktokLink: "",
   },
   {
     id: 49,
@@ -782,6 +830,7 @@ const products = [
     description:
       "MISAE – Karla Top / Atasan Wanita Semiwool Premium hadir dengan desain blouse ala Korean style yang elegan dan feminin, memberikan tampilan rapi namun tetap modern. Terbuat dari bahan semiwool premium yang lembut dan nyaman dipakai, atasan ini cocok untuk aktivitas harian maupun acara semi-formal, mudah dipadukan dengan berbagai bawahan untuk menciptakan gaya wanita yang stylish dan berkelas.",
     shopeeLink: "https://s.shopee.co.id/4AtP1jeuKb",
+    tiktokLink: "",
   },
   {
     id: 50,
@@ -798,6 +847,7 @@ const products = [
     description:
       "IRIS TOP | Atasan Knit Wanita Korean Top hadir dengan desain basic yang simpel dan elegan, dilengkapi lengan panjang (long sleeve) untuk tampilan rapi dan feminin. Terbuat dari bahan knit yang lembut, elastis, dan nyaman dipakai seharian, atasan ini cocok untuk gaya Korean look yang minimalis, mudah dipadukan dengan rok atau celana untuk aktivitas harian hingga smart casual.",
     shopeeLink: "https://s.shopee.co.id/60L3DFltKt",
+    tiktokLink: "",
   },
   // {
   //   id: 51,
@@ -814,6 +864,7 @@ const products = [
   //   description:
   //     "JINISO – Baggy Loose Jeans Urban Style hadir dengan potongan baggy loose yang nyaman dan kekinian. Terbuat dari bahan denim berkualitas tinggi, celana ini cocok untuk aktivitas harian maupun streetwear look, mudah dipadukan dengan kaos oversized atau hoodie favorit.",
   //   shopeeLink: "https://s.shopee.co.id/dummy51",
+  // tiktokLink: "",
   // },
   // {
   //   id: 52,
@@ -830,6 +881,7 @@ const products = [
   //   description:
   //     "JINISO – Highwaist Straight Jeans Clean Look hadir dengan potongan highwaist dan siluet lurus yang memberikan kesan rapi dan modern. Dibuat dari denim berkualitas yang nyaman dipakai seharian, cocok untuk gaya kasual maupun semi-formal.",
   //   shopeeLink: "https://s.shopee.co.id/dummy52",
+  // tiktokLink: "",
   // },
   // {
   //   id: 53,
@@ -846,6 +898,7 @@ const products = [
   //   description:
   //     "JINISO – Cargo Denim Pants Oversize mengusung desain cargo dengan kantong fungsional dan potongan oversize yang trendy. Terbuat dari denim tebal berkualitas, celana ini cocok untuk gaya streetwear aktif dan stylish.",
   //   shopeeLink: "https://s.shopee.co.id/dummy53",
+  // tiktokLink: "",
   // },
   // {
   //   id: 54,
@@ -862,6 +915,7 @@ const products = [
   //   description:
   //     "JINISO – Rok Jeans Panjang A-Line hadir dengan potongan A-line yang memberikan kesan feminin dan elegan. Terbuat dari bahan denim nyaman, rok ini cocok untuk aktivitas harian dan mudah dipadukan dengan berbagai atasan.",
   //   shopeeLink: "https://s.shopee.co.id/dummy54",
+  // tiktokLink: "",
   // },
   // {
   //   id: 55,
@@ -878,6 +932,7 @@ const products = [
   //   description:
   //     "JINISO – Jaket Jeans Oversize Boxy hadir dengan potongan boxy oversize yang modern dan stylish. Cocok dijadikan outer untuk berbagai aktivitas kasual, memberikan tampilan trendi dan effortless.",
   //   shopeeLink: "https://s.shopee.co.id/dummy55",
+  // tiktokLink: "",
   // },
   // {
   //   id: 56,
@@ -894,6 +949,7 @@ const products = [
   //   description:
   //     "JINISO – Mom Jeans Casual Fit hadir dengan potongan mom jeans yang nyaman dan trendi. Terbuat dari denim berkualitas yang ringan dan awet, celana ini cocok untuk gaya kasual sehari-hari.",
   //   shopeeLink: "https://s.shopee.co.id/dummy56",
+  // tiktokLink: "",
   // },
   // {
   //   id: 57,
@@ -910,6 +966,7 @@ const products = [
   //   description:
   //     "JINISO – Flare Jeans Highwaist Modern menghadirkan potongan flare yang elegan dan stylish. Terbuat dari denim berkualitas yang nyaman dipakai, cocok untuk tampilan kasual maupun semi-formal.",
   //   shopeeLink: "https://s.shopee.co.id/dummy57",
+  // tiktokLink: "",
   // },
   // {
   //   id: 58,
@@ -926,6 +983,7 @@ const products = [
   //   description:
   //     "JINISO – Wide Leg Jeans Daily Casual hadir dengan potongan kaki lebar yang nyaman dan modern. Cocok untuk aktivitas harian, jeans ini mudah dipadukan dengan berbagai atasan favorit.",
   //   shopeeLink: "https://s.shopee.co.id/dummy58",
+  // tiktokLink: "",
   // },
   // {
   //   id: 59,
@@ -942,6 +1000,7 @@ const products = [
   //   description:
   //     "JINISO – Denim Short Pants Relaxed Fit hadir dengan desain santai dan nyaman dipakai. Terbuat dari bahan denim berkualitas, cocok untuk aktivitas santai dan gaya kasual harian.",
   //   shopeeLink: "https://s.shopee.co.id/dummy59",
+  // tiktokLink: "",
   // },
   // {
   //   id: 60,
@@ -958,6 +1017,7 @@ const products = [
   //   description:
   //     "JINISO – Jaket Jeans Street Casual hadir dengan desain modern yang cocok untuk gaya streetwear. Nyaman dipakai sebagai outer dan mudah dipadukan untuk berbagai aktivitas kasual.",
   //   shopeeLink: "https://s.shopee.co.id/dummy60",
+  // tiktokLink: "",
   // },
   // {
   //   id: 61,
@@ -974,6 +1034,7 @@ const products = [
   //   description:
   //     "JINISO – Loose Fit Jeans Everyday hadir dengan potongan loose fit yang nyaman untuk dipakai sehari-hari. Dibuat dari denim berkualitas, celana ini cocok untuk tampilan kasual yang simpel dan modern.",
   //   shopeeLink: "https://s.shopee.co.id/dummy61",
+  // tiktokLink: "",
   // },
   // {
   //   id: 62,
@@ -990,6 +1051,7 @@ const products = [
   //   description:
   //     "JINISO – Straight Jeans Minimalist hadir dengan desain simpel dan potongan lurus yang timeless. Cocok untuk berbagai aktivitas, mudah dipadukan dengan gaya kasual maupun semi-formal.",
   //   shopeeLink: "https://s.shopee.co.id/dummy62",
+  // tiktokLink: "",
   // },
   // {
   //   id: 63,
@@ -1006,6 +1068,7 @@ const products = [
   //   description:
   //     "JINISO – Baggy Denim Pants Street Mode hadir dengan potongan baggy yang trendi dan nyaman. Terbuat dari denim berkualitas, cocok untuk gaya streetwear kekinian.",
   //   shopeeLink: "https://s.shopee.co.id/dummy63",
+  // tiktokLink: "",
   // },
   // {
   //   id: 64,
@@ -1022,6 +1085,7 @@ const products = [
   //   description:
   //     "JINISO – Rok Jeans Midi Highwaist hadir dengan potongan highwaist yang elegan dan nyaman dipakai. Cocok untuk tampilan kasual maupun semi-formal dengan gaya modern.",
   //   shopeeLink: "https://s.shopee.co.id/dummy64",
+  // tiktokLink: "",
   // },
   // {
   //   id: 65,
@@ -1038,6 +1102,7 @@ const products = [
   //   description:
   //     "JINISO – Denim Jacket Oversize Classic hadir dengan desain jaket denim klasik berpotongan oversize. Nyaman dipakai sebagai outer dan cocok untuk berbagai gaya kasual.",
   //   shopeeLink: "https://s.shopee.co.id/dummy65",
+  // tiktokLink: "",
   // },
   // {
   //   id: 66,
@@ -1054,6 +1119,7 @@ const products = [
   //   description:
   //     "JINISO – Tapered Jeans Casual Fit hadir dengan potongan tapered yang nyaman dan modern. Terbuat dari denim berkualitas, cocok untuk aktivitas harian maupun hangout.",
   //   shopeeLink: "https://s.shopee.co.id/dummy66",
+  // tiktokLink: "",
   // },
   // {
   //   id: 67,
@@ -1070,6 +1136,7 @@ const products = [
   //   description:
   //     "JINISO – Wide Jeans Oversize Daily hadir dengan potongan wide yang nyaman dan stylish. Cocok untuk aktivitas harian dengan tampilan kasual modern.",
   //   shopeeLink: "https://s.shopee.co.id/dummy67",
+  // tiktokLink: "",
   // },
   // {
   //   id: 68,
@@ -1086,6 +1153,7 @@ const products = [
   //   description:
   //     "JINISO – Denim Shorts Baggy Skater hadir dengan potongan baggy yang santai dan nyaman. Cocok untuk gaya skater maupun kasual harian.",
   //   shopeeLink: "https://s.shopee.co.id/dummy68",
+  // tiktokLink: "",
   // },
   // {
   //   id: 69,
@@ -1102,6 +1170,7 @@ const products = [
   //   description:
   //     "JINISO – Oversize Jeans Jacket Street hadir dengan desain jaket denim oversize yang stylish dan kekinian. Cocok sebagai outer untuk gaya streetwear modern.",
   //   shopeeLink: "https://s.shopee.co.id/dummy69",
+  // tiktokLink: "",
   // },
   // {
   //   id: 70,
@@ -1118,5 +1187,6 @@ const products = [
   //   description:
   //     "JINISO – Loose Fit Jeans Minimalist hadir dengan potongan loose fit yang simpel dan nyaman dipakai. Terbuat dari denim berkualitas tinggi, jeans ini cocok untuk berbagai aktivitas dengan tampilan kasual modern.",
   //   shopeeLink: "https://s.shopee.co.id/dummy70",
+  // tiktokLink: "",
   // },
 ];

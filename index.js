@@ -73,9 +73,15 @@ function displayProducts(productsToShow) {
           <i class="fas fa-map-marker-alt"></i> ${product.location}
         </div>
 
-        <a href="${product.shopeeLink}" target="_blank" class="buy-button">
-          <i class="fas fa-shopping-cart"></i> Beli di Shopee
+       <div class="buy-actions">
+        <a href="${product.shopeeLink}" target="_blank" class="buy-button shopee">
+          <i class="fas fa-shopping-cart"></i> Shopee
         </a>
+
+        <a href="${product.tiktokLink}" target="_blank" class="buy-button tiktok">
+          <i class="fab fa-tiktok"></i> TikTok
+        </a>
+       </div>
       </div>
     `;
 
@@ -181,10 +187,16 @@ function showProductDetail(product) {
       </div>
 
       <p class="detail-description">${product.description}</p>
+<div class="detail-buy-actions">
+  <a href="${product.shopeeLink}" target="_blank" class="detail-buy-button shopee">
+    <i class="fas fa-shopping-cart"></i> Beli via Shopee
+  </a>
 
-      <a href="${product.shopeeLink}" target="_blank" class="detail-buy-button">
-        <i class="fas fa-shopping-cart"></i> Beli Sekarang di Shopee
-      </a>
+  <a href="${product.tiktokLink}" target="_blank" class="detail-buy-button tiktok">
+    <i class="fab fa-tiktok"></i> Beli via TikTok
+  </a>
+</div>
+
     </div>
   `;
 

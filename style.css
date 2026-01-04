@@ -1222,3 +1222,34 @@ header {
 .loading-spinner {
   z-index: 3000;
 }
+
+.buy-actions,
+.detail-buy-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.buy-button,
+.detail-buy-button {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Shopee */
+.buy-button.shopee,
+.detail-buy-button.shopee {
+  background: #ee4d2d;
+}
+
+/* TikTok */
+.buy-button.tiktok,
+.detail-buy-button.tiktok {
+  background: #000;
+}
