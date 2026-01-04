@@ -65,7 +65,7 @@ const products = [
     description:
       "BENIDSON Oversized Tshirt Sheesh hadir dengan desain grafis “Sheesh” yang catchy dan penuh karakter, cocok untuk kamu yang ingin tampil standout dengan gaya kasual modern. Dibuat dari bahan katun yang adem, lembut, dan nyaman dipakai seharian, kaos ini mengusung potongan oversized yang mengikuti tren Korean street style, mudah dipadukan dengan berbagai outfit untuk aktivitas harian maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/8V2EwAnyRp",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA7GrYgMGX-WPRb2/",
   },
   {
     id: 5,
@@ -82,7 +82,7 @@ const products = [
     description:
       "Benidson Oversized Kaos Bump Katun Korean Style hadir dengan desain grafis “Bump” yang simpel namun eye-catching, dipadukan dengan bahan katun berkualitas yang lembut, adem, dan nyaman dipakai sepanjang hari. Potongan oversized khas Korean style memberikan tampilan kasual modern yang trendy, mudah dipadukan dengan jeans, cargo, atau outfit favorit untuk daily look dan hangout.",
     shopeeLink: "https://s.shopee.co.id/3B0iaajRTw",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA7TP6jmvF-YxmrC/",
   },
   {
     id: 6,
@@ -99,7 +99,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Stick Logo Katun M–2XL hadir dengan desain logo stick yang minimalis dan modern, cocok untuk tampilan simpel namun tetap stylish. Terbuat dari bahan katun berkualitas yang adem, lembut, dan nyaman dipakai seharian, kaos ini menggunakan potongan oversized ala Korean style dengan pilihan ukuran M hingga 2XL, mudah dipadukan dengan berbagai outfit untuk aktivitas harian maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/2LRbbIQfvV",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAv8JPCJQF-PHqHb/",
   },
   {
     id: 7,
@@ -116,7 +116,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Katun Unisex L–2XL hadir dengan desain simpel dan potongan oversized yang nyaman, cocok digunakan oleh pria maupun wanita. Terbuat dari bahan katun berkualitas yang adem, lembut, dan menyerap keringat, kaos ini nyaman dipakai seharian serta mudah dipadukan dengan berbagai gaya outfit kasual untuk aktivitas harian, hangout, maupun santai.",
     shopeeLink: "https://s.shopee.co.id/9zr2jUYf8y",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAv6p939Ap-UTjmj/",
   },
   {
     id: 8,
@@ -133,7 +133,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Squarepants Power Katun M–2XL hadir dengan desain grafis Squarepants Power yang fun dan eye-catching, cocok untuk kamu yang ingin tampil playful namun tetap stylish. Terbuat dari bahan katun berkualitas yang adem, lembut, dan nyaman dipakai seharian, kaos ini mengusung potongan oversized ala Korean style dengan pilihan ukuran M hingga 2XL, mudah dipadukan dengan berbagai outfit kasual untuk daily look maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/2LRbbfOwkG",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAvBLDsJ1s-X3z0x/",
   },
   {
     id: 9,
@@ -150,7 +150,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Green Issue Katun Korean hadir dengan desain bertema Green Issue yang modern dan berkarakter, cocok untuk tampilan kasual yang fresh dan kekinian. Terbuat dari bahan katun berkualitas yang adem, lembut, dan nyaman dipakai seharian, kaos ini mengusung potongan oversized ala Korean style sehingga mudah dipadukan dengan berbagai outfit untuk aktivitas harian maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/8zyVY6ydcr",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAvaRT3Yre-3fXGu/",
   },
   {
     id: 10,
@@ -167,7 +167,7 @@ const products = [
     description:
       "Benidson Oversized Tshirt Jaguars Katun Korean hadir dengan desain grafis Jaguars yang bold dan sporty, memberikan kesan kuat dan stylish pada tampilan kasualmu. Dibuat dari bahan katun berkualitas yang adem, lembut, dan nyaman dipakai seharian, kaos ini mengusung potongan oversized ala Korean style yang trendy dan mudah dipadukan dengan berbagai outfit untuk aktivitas harian maupun hangout.",
     shopeeLink: "https://s.shopee.co.id/1gBuop112T",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAvxRR4C95-MmWMz/",
   },
   {
     id: 11,
@@ -184,7 +184,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Discredit Black Katun Premium hadir dengan desain grafis “Discredit” bernuansa hitam yang tegas dan modern, cocok untuk kamu yang ingin tampil bold dan berkarakter. Terbuat dari bahan katun premium yang lembut, adem, dan nyaman dipakai seharian, kaos ini mengusung potongan oversize yang trendy serta mudah dipadukan dengan berbagai outfit streetwear maupun kasual untuk aktivitas harian.",
     shopeeLink: "https://s.shopee.co.id/3VdZgDa2sr",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAvGE5pfeU-QJqPo/",
   },
   {
     id: 12,
@@ -201,7 +201,7 @@ const products = [
     description:
       "Thenational Boxy Fit Oversized T-Shirt Brody Katun Combed 24s hadir dengan potongan boxy fit yang modern dan proporsional, memberikan tampilan kasual yang clean namun tetap stylish. Terbuat dari bahan katun combed 24s berkualitas yang lembut, adem, dan nyaman dipakai seharian, kaos ini cocok untuk daily wear maupun streetwear look, serta mudah dipadukan dengan berbagai outfit favoritmu.",
     shopeeLink: "https://s.shopee.co.id/30hJ5ZA7By",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAvctdJMWJ-bQ5g1/",
   },
   {
     id: 13,
@@ -218,7 +218,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Chase Black Katun Combed 24s hadir dengan desain simpel berwarna hitam yang timeless dan mudah dipadukan dengan berbagai gaya. Terbuat dari bahan katun combed 24s berkualitas yang lembut, adem, dan nyaman dipakai seharian, kaos ini mengusung potongan oversize yang modern, cocok untuk tampilan kasual maupun streetwear sehari-hari.",
     shopeeLink: "https://s.shopee.co.id/4fpX4xrVPk",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAcxNmc2y9-6P11Z/",
   },
   {
     id: 14,
@@ -235,7 +235,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Number Line Black hadir dengan desain grafis Number Line yang minimalis dan modern, memberikan kesan clean namun tetap berkarakter pada tampilan kasualmu. Dengan warna hitam yang timeless dan potongan oversize yang nyaman, kaos ini cocok untuk dipakai sehari-hari maupun gaya streetwear, serta mudah dipadukan dengan berbagai outfit favorit.",
     shopeeLink: "https://s.shopee.co.id/3B0jIUOvb9",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAcr99YgqT-Q0Q75/",
   },
   {
     id: 15,
@@ -252,7 +252,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Katun Hitam S–XL hadir dengan desain simpel dan warna hitam yang timeless, cocok untuk berbagai gaya kasual maupun streetwear. Terbuat dari bahan katun yang lembut, adem, dan nyaman dipakai seharian, kaos ini menggunakan potongan oversize yang modern dengan pilihan ukuran S hingga XL, mudah dipadukan dengan berbagai outfit favorit untuk aktivitas harian.",
     shopeeLink: "https://s.shopee.co.id/BN7jC4qSi",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAcU8RUn2K-GluGu/",
   },
   {
     id: 16,
@@ -269,7 +269,7 @@ const products = [
     description:
       "Thenational Oversize Rugby Polo Shirt DarkSynergy hadir dengan desain rugby polo bernuansa DarkSynergy yang maskulin dan modern, memadukan gaya sporty dan streetwear dalam satu tampilan. Mengusung potongan oversize yang nyaman, kaos polo ini cocok untuk aktivitas harian maupun casual look, serta mudah dipadukan dengan berbagai outfit untuk tampil standout namun tetap santai.",
     shopeeLink: "https://s.shopee.co.id/2g4ShwZYIf",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAcgrwPunH-4gGZE/",
   },
   {
     id: 17,
@@ -286,7 +286,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Katun Combed 24s Hitam hadir dengan desain simpel dan warna hitam yang timeless, memberikan tampilan kasual yang clean dan mudah dipadukan. Terbuat dari bahan katun combed 24s berkualitas yang lembut, adem, dan nyaman dipakai seharian, kaos ini menggunakan potongan oversize modern yang cocok untuk daily wear maupun gaya streetwear.",
     shopeeLink: "https://s.shopee.co.id/20oluyeDhb",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEAcLo5mEtW-c00aW/",
   },
   {
     id: 18,
@@ -320,7 +320,7 @@ const products = [
     description:
       "Thenational Oversize T-Shirt Dressing Dark Purple hadir dengan desain modern bernuansa dark purple yang elegan dan berkarakter, cocok untuk kamu yang ingin tampil beda namun tetap stylish. Mengusung potongan oversize yang nyaman, kaos ini pas untuk daily wear maupun streetwear look, serta mudah dipadukan dengan berbagai outfit kasual favorit.",
     shopeeLink: "https://s.shopee.co.id/3VdZi3giuX",
-    tiktokLink: "",
+    tiktokLink: "https://vt.tokopedia.com/t/ZSHEA31hMdJmW-fzzdK/",
   },
   {
     id: 20,
