@@ -30,7 +30,7 @@ function displayProducts(productsToShow) {
   productsToShow.forEach((product) => {
     // Hitung diskon
     const discount = Math.round(
-      ((product.originalPrice - product.price) / product.originalPrice) * 100
+      ((product.originalPrice - product.price) / product.originalPrice) * 100,
     );
     const shopeeAvailable = isValidLink(product.shopeeLink);
     const tiktokAvailable = isValidLink(product.tiktokLink);
@@ -146,7 +146,7 @@ function showProductDetail(product) {
   const tiktokAvailable = isValidLink(product.tiktokLink);
   // Hitung diskon
   const discount = Math.round(
-    ((product.originalPrice - product.price) / product.originalPrice) * 100
+    ((product.originalPrice - product.price) / product.originalPrice) * 100,
   );
 
   // Format angka
@@ -266,6 +266,7 @@ function searchProducts() {
 
 // Inisialisasi saat halaman dimuat
 document.addEventListener("DOMContentLoaded", () => {
+  products.sort((a, b) => b.id - a.id);
   // Tampilkan semua produk saat halaman dimuat
   displayProducts(products);
 
