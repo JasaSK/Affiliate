@@ -53,7 +53,7 @@ function displayProducts(productsToShow) {
           src="${product.image}" 
           alt="${product.name}"
           loading="lazy"
-          onerror="this.onerror=null; this.src='https://via.placeholder.com/300x200/00a046/ffffff?text=YayayaShop';"
+          onerror="this.onerror=null; this.src='https://via.placeholder.com/300x200/00a046/ffffff?text=Liuka';"
         >
         <div class="product-code">${product.code}</div>
       </div>
@@ -161,7 +161,7 @@ function showProductDetail(product) {
         src="${product.image}" 
         alt="${product.name}" 
         class="detail-image"
-        onerror="this.onerror=null; this.src='https://via.placeholder.com/500x400/00a046/ffffff?text=YayayaShop';"
+        onerror="this.onerror=null; this.src='https://via.placeholder.com/500x400/00a046/ffffff?text=Liuka';"
       >
       <div class="detail-image-code">${product.code}</div>
     </div>
